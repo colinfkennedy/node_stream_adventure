@@ -1,5 +1,8 @@
-=Node Stream Adventure=
+Node Stream Adventure
+=====================
 
-==Challenges==
-*Beep Boop - Passed
-*Meet Pipe - Passed
+Challenges
+----------
+- [x] Beep Boop
+- [x] Meet Pipe
+- [] Input Output
