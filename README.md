@@ -8,7 +8,7 @@ Challenges
 - Input Output - Passed
 - Transform - Passed
 - Lines - Passed
-- Concat
+- Concat - Passed
 - HTTP Server
 - HTTP Client
 - Websockets
