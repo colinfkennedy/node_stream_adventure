@@ -7,7 +7,7 @@ Challenges
 - Meet Pipe - Passed
 - Input Output - Passed
 - Transform - Passed
-- Lines
+- Lines - Passed
 - Concat
 - HTTP Server
 - HTTP Client
