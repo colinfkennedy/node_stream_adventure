@@ -1,1 +1,6 @@
-process.stdin.pipe(process.stdout);
+var through = require('through'),
+    tr = through(function (buf) {
+        this.queue(buf.toString().toUpperCase());
+    });
+
+process.stdin.pipe(tr).pipe(process.stdout);
