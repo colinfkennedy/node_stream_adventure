@@ -1,6 +1,12 @@
-var concat = require('concat-stream');
+var http = require('http');
+var through = require('through');
 
-process.stdin.pipe(concat(function (src) {
-    var s = src.toString().split('').reverse().join('');
-    console.log(s);
-}));
+var server = http.createServer(function (req, res) {
+    if (req.method === 'POST') {
+        req.pipe(through(function (buf) {
+            this.queue(buf.toString().toUpperCase());
+        })).pipe(res);
+    }
+    else res.end('send me a POST\n');
+});
+server.listen(parseInt(process.argv[2]));

@@ -9,7 +9,7 @@ Challenges
 - Transform - Passed
 - Lines - Passed
 - Concat - Passed
-- HTTP Server
+- HTTP Server - Passed
 - HTTP Client
 - Websockets
 - HTML Stream
