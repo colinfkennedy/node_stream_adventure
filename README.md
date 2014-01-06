@@ -10,7 +10,7 @@ Challenges
 - Lines - Passed
 - Concat - Passed
 - HTTP Server - Passed
-- HTTP Client
+- HTTP Client - Passed
 - Websockets
 - HTML Stream
 - Duplexer
