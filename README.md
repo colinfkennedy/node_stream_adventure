@@ -11,7 +11,7 @@ Challenges
 - Concat - Passed
 - HTTP Server - Passed
 - HTTP Client - Passed
-- Websockets
+- Websockets - Passed
 - HTML Stream
 - Duplexer
 - Duplexer Redux
